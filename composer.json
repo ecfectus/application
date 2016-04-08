@@ -24,11 +24,15 @@
         },
         {
             "type": "vcs",
+            "url": "https://github.com/ecfectus/middleware-runner"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/ecfectus/framework"
         }
     ],
     "require": {
-        "ecfectus/framework": "dev-master"
+        "ecfectus/framework": "*"
     },
     "require-dev": {
         "phpunit/phpunit" : "4.*",
