@@ -12,27 +12,12 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/ecfectus/container"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/ecfectus/config"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/ecfectus/router"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/ecfectus/middleware-runner"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/ecfectus/framework"
         }
     ],
     "require": {
-        "ecfectus/framework": "*"
+        "ecfectus/framework": "dev-master",
+        "symfony/event-dispatcher": "^3.0"
     },
     "require-dev": {
         "phpunit/phpunit" : "4.*",

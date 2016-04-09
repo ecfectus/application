@@ -2,6 +2,6 @@
 
 return [
     'providers' => [
-        \Ecfectus\Framework\Http\HttpServiceProvider::class
+        \Ecfectus\Http\HttpServiceProvider::class
     ]
 ];
