@@ -9,7 +9,7 @@
 namespace App;
 
 
-class Application extends \Ecfectus\Application
+class Application extends \Ecfectus\Framework\Application
 {
 
 }

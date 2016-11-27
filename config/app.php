@@ -2,6 +2,13 @@
 
 return [
     'providers' => [
-        \Ecfectus\Http\HttpServiceProvider::class
+        \Ecfectus\Framework\Http\HttpServiceProvider::class,
+        \Ecfectus\Framework\Session\SessionServiceProvider::class,
+        \Ecfectus\Framework\Router\RouterServiceProvider::class,
+        \Ecfectus\Framework\Pipeline\PipelineServiceProvider::class,
+        \Ecfectus\Framework\Cache\CacheServiceProvider::class,
+
+        \App\Providers\AppServiceProvider::class,
+        \App\Providers\RoutesServiceProvider::class,
     ]
 ];
